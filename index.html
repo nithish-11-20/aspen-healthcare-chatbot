@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Aspen Healthcare Chatbot Platform</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<style>
+:root {
+  --primary: #1e88e5;
+  --primary-dark: #1565c0;
+  --bg: #f4f6f9;
+  --card: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.6rem;
+  margin-bottom: 12px;
+}
+
+header p {
+  max-width: 900px;
+  margin: auto;
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+/* SECTION */
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: var(--primary);
+  margin-bottom: 25px;
+}
+
+/* CARDS */
+.card {
+  background: var(--card);
+  padding: 22px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+/* OBJECTIVE TILES */
+.tile {
+  background: var(--card);
+  padding: 18px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* ARCHITECTURE */
+.arch h3 {
+  margin-bottom: 10px;
+  color: var(--primary-dark);
+}
+
+/* BADGES */
+.badges span {
+  display: inline-block;
+  padding: 7px 14px;
+  margin: 6px;
+  background: #e3f2fd;
+  color: var(--primary);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* LIST */
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* FOOTER */
+footer {
+  background: #0f172a;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 25px;
+  margin-top: 40px;
+}
+
+footer strong {
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Aspen Healthcare Chatbot Platform</h1>
+  <p>
+    A secure, scalable healthcare chatbot solution enabling patient onboarding,
+    appointment booking, medical record access, and real-time doctor communication.
+  </p>
+</header>
+
+<section>
+  <h2>Project Overview</h2>
+  <div class="card">
+    The Aspen Healthcare Chatbot provides patients with a secure self-service digital
+    channel to interact with healthcare systems. It supports medical-ID-based
+    authentication, chatbot-driven workflows, appointment booking, and live doctor
+    communication.
+  </div>
+</section>
+
+<section>
+  <h2>Business Objectives</h2>
+  <div class="grid">
+    <div class="tile">Secure single entry point for patients</div>
+    <div class="tile">Reduce manual appointment effort</div>
+    <div class="tile">Enable real-time doctor communication</div>
+    <div class="tile">Controlled access to medical records</div>
+    <div class="tile">Healthcare data security compliance</div>
+  </div>
+</section>
+
+<section>
+  <h2>High-Level Architecture</h2>
+  <div class="grid arch">
+    <div class="card">
+      <h3>Frontend</h3>
+      <ul>
+        <li>Angular SPA</li>
+        <li>Chatbot UI</li>
+        <li>Appointment booking</li>
+        <li>Health record views</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Backend (Spring Boot)</h3>
+      <ul>
+        <li>Conversation Service</li>
+        <li>HON Connect Service</li>
+        <li>REST APIs</li>
+        <li>Business validation</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Conversational AI</h3>
+      <ul>
+        <li>Google Dialogflow</li>
+        <li>Intent detection</li>
+        <li>NLP processing</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Data Layer</h3>
+      <ul>
+        <li>Firebase</li>
+        <li>Real-time data access</li>
+        <li>Conversation context storage</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Key Functional Flows</h2>
+  <div class="grid">
+    <div class="tile">Patient Login & Registration</div>
+    <div class="tile">Chatbot Interaction</div>
+    <div class="tile">Appointment Booking</div>
+    <div class="tile">Health Records Access</div>
+    <div class="tile">Doctor Live Chat</div>
+  </div>
+</section>
+
+<section>
+  <h2>Technology Stack</h2>
+  <div class="card badges">
+    <span>Java</span>
+    <span>Spring Boot</span>
+    <span>REST APIs</span>
+    <span>Angular</span>
+    <span>TypeScript</span>
+    <span>Google Dialogflow</span>
+    <span>Firebase</span>
+    <span>Docker</span>
+    <span>Kubernetes</span>
+    <span>Helm</span>
+    <span>Ansible</span>
+    <span>GitHub Actions</span>
+    <span>GCP</span>
+  </div>
+</section>
+
+<section>
+  <h2>My Role & Responsibilities</h2>
+  <div class="card">
+    <ul>
+      <li>Took ownership after initial development phase</li>
+      <li>Stabilized Spring Boot microservices</li>
+      <li>Integrated Dialogflow intents with backend services</li>
+      <li>Built and refined REST APIs</li>
+      <li>Supported production go-live activities</li>
+      <li>Collaborated with UI and DevOps teams</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Outcome</h2>
+  <div class="card">
+    Successfully delivered a production-ready healthcare chatbot platform that improved
+    patient experience, reduced operational effort, and enabled secure doctor-patient
+    communication with a scalable cloud-native architecture.
+  </div>
+</section>
+
+<footer>
+  <strong>Aspen Healthcare Chatbot Platform</strong> • Portfolio Project
+</footer>
+
+</body>
+</html>
